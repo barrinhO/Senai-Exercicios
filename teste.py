@@ -1,3 +1,5 @@
+
+
 # exercicio 1 for
 string = "abóbora"
 print(f"Primeira string: {string}")
@@ -44,3 +46,19 @@ elif(operacao == '4'):
     print(f"Divisão: {div}")
 else:
     print("Por favor digite o numero da operação")
+    
+# # Exercicio 4
+
+# frase = "Eu gosto de morango"
+# for char in frase:
+#   chars = print(char, "=", frase.count(char))
+  
+#   if(char == 4):
+#       print("o")
+
+  
+
+
+    
+
+    
