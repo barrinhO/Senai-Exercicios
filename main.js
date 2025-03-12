@@ -33,3 +33,7 @@ alert(`Há ${produtos50a100.length} produtos com preço entre 50 e 100 reais`);
 alert(`Os produtos são: ${produtosLista}`);
 alert(`Seus preços são: ${produtosPreço}`);
 alert(`A média dos preços dos produtos é de ${mediaProdutos} reais`);
+
+for (prod in produtosLista) {
+    console.log(produtosLista[prod]);
+}
