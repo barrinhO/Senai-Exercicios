@@ -8,7 +8,7 @@ let preco;
 
 alert("Digite o nome e o preço de 5 produtos");
 
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 5; i++) {
     produto = prompt("Digite o nome do produto"); // digitar produto
     preco = parseFloat(prompt("Digite o preço do produto")); // digitar preço
     produtosLista.push(produto); // enviar o produto para a lista
@@ -34,6 +34,12 @@ alert(`Os produtos são: ${produtosLista}`);
 alert(`Seus preços são: ${produtosPreço}`);
 alert(`A média dos preços dos produtos é de ${mediaProdutos} reais`);
 
-for (prod in produtosLista) {
-    console.log(produtosLista[prod]);
+for (let prod in produtosLista) {
+    produto += prod + ", ";
 }
+
+for (let prec in preco) {
+    preco += prec + ", ";
+}
+
+alert(produto + "\n" + preco);
